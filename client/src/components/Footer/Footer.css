@@ -1,0 +1,43 @@
+.footer {
+  background: #393e46;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  height: 30px;
+  width: 100%;
+  -webkit-box-shadow: 0 -3px 6px 0 #777;
+  -moz-box-shadow: 0 -3px 6px 0 #777;
+  box-shadow: 0 -3px 6px 0 #777;
+  z-index: 2;
+}
+
+.footer-container {
+  display: flex;
+  height: 100%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.footer-item {
+  padding-right: 1rem;
+  color: white;
+  font-size: 0.75rem;
+  max-width: 100px;
+}
+
+.mac-logo {
+  max-width: 250px;
+}
+
+.footer-item:hover {
+  color: #f8b500;
+}
+
+.revision-date {
+  padding-left: 1rem;
+  margin-right: 5px;;
+  font-size: 0.6rem;
+  color: white;
+  min-width: 72px;
+}
