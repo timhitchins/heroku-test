@@ -1,5 +1,7 @@
 # Rose City Resource Online
 
+## This is a test repo
+
 To start this application in development, clone the repository.
 
 There are two `package.json` files for installing modules in the client and server.
